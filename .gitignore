@@ -7,3 +7,12 @@ __pycache__/
 env/
 venv/
 ENV/
+
+# Data and generated artifacts
+data/**
+!data/**/README.md
+artifacts/**
+!artifacts/**/README.md
+*.csv
+!.github/**
+.pytest_cache/
