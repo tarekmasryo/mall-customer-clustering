@@ -62,6 +62,12 @@ After placing the dataset CSV under `data/raw/`:
 python scripts/make_deliverables.py
 ```
 
+Or pass a custom path:
+
+```bash
+python scripts/make_deliverables.py --data /path/to/Mall_Customers.csv
+```
+
 Artifacts will be saved under `./artifacts/`.
 
 ---
