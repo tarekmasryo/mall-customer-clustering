@@ -10,9 +10,13 @@ ENV/
 
 # Data and generated artifacts
 data/**
+!data/
+!data/**/
 !data/**/README.md
+!data/**/.gitkeep
+
 artifacts/**
+!artifacts/
+!artifacts/**/
 !artifacts/**/README.md
-*.csv
-!.github/**
-.pytest_cache/
+!artifacts/**/.gitkeep
