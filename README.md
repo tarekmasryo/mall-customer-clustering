@@ -7,7 +7,7 @@ Unsupervised segmentation with **cluster profiles** + **auto-generated personas*
 ---
 
 ## ✅ What you get
-- Leak-safe, reproducible clustering workflow (scaling → k-selection → clustering)
+- Reproducible unsupervised clustering workflow (scaling → k-selection → clustering)
 - Multiple algorithms for comparison (**KMeans**, Agglomerative, **GMM**)
 - PCA visualizations for separation and explainability
 - DBSCAN-based outlier flagging (optional)
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 Run the notebook:
 
 ```bash
-jupyter notebook mall-customer-segmentation-eda-clustering.ipynb
+jupyter notebook customer-segmentation-analysis.ipynb
 ```
 
 ---
